@@ -2,8 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import Champions from "./Champions";
+import Maps from "./Maps";
+import AboutMe from "./AboutMe";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Sergi from "./Sergi";
 
 let router = createBrowserRouter([
   {
@@ -11,8 +13,16 @@ let router = createBrowserRouter([
     Component: App,
   },
   {
-    path: "/sergi",
-    Component: Sergi,
+    path: "/champions",
+    Component: Champions,
+  },
+  {
+    path: "/maps",
+    Component: Maps,
+  },
+  {
+    path: "/about",
+    Component: AboutMe,
   },
   {
     path: "*",
@@ -21,14 +31,25 @@ let router = createBrowserRouter([
 ]);
 
 const Navbar = () => (
-  <ol class="navbar">
-    <li>
-      <a href="index.html">Index</a>
-    </li>
-    <li>
-      <a href="Sergi.js">Memes del Bana</a>
-    </li>
-  </ol>
+  <nav className="navbar">
+    <div className="navbar-container">
+      <div className="navbar-brand">LoL Guide</div>
+      <ul className="navbar-menu">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/champions">Campeones</a>
+        </li>
+        <li>
+          <a href="/maps">Mapas & Objetivos</a>
+        </li>
+        <li>
+          <a href="/about">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
