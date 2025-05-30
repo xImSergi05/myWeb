@@ -70,7 +70,7 @@ function Maps() {
       <h1 className="page-title">Mapes & Objectius</h1>
 
       <div className="card">
-        <h2>La Grieta de l'Invocador</h2>
+        <h2>L'Esquerda de l'Invocador</h2>
         <p>
           La Grieta de l'Invocador és el mapa principal de League of Legends. És
           un mapa simètric amb tres carrils (línies) connectats per una jungla
