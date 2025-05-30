@@ -18,8 +18,15 @@ function Maps() {
       ],
     },
     {
-      name: "Herald del Buit",
+      name: "Larves del Buit",
       timing: "Minuts 8-14",
+      reward: "Invocació que pot destruir torres",
+      strategy:
+        "Utilitza'les per prendre les torres dels carrils i obrir el mapa.",
+    },
+    {
+      name: "Herald del Buit",
+      timing: "Minuts 20-25",
       reward: "Invocació que pot destruir torres",
       strategy:
         "Utilitza'l per prendre la torre del carril central i obrir el mapa.",
@@ -72,9 +79,9 @@ function Maps() {
       <div className="card">
         <h2>L'Esquerda de l'Invocador</h2>
         <p>
-          La Grieta de l'Invocador és el mapa principal de League of Legends. És
-          un mapa simètric amb tres carrils (línies) connectats per una jungla
-          plena de monstres neutrals i objectius importants.
+          L'Esquerda de l'Invocador és el mapa principal de League of Legends.
+          És un mapa simètric amb tres carrils (línies) connectats per una
+          jungla plena de monstres neutrals i objectius importants.
         </p>
         <h3>Estructura del Mapa:</h3>
         <p>
