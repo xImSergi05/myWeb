@@ -39,13 +39,13 @@ const Navbar = () => (
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/champions">Campeones</a>
+          <a href="/champions">Campions</a>
         </li>
         <li>
-          <a href="/maps">Mapas & Objetivos</a>
+          <a href="/maps">Mapes & Objectius</a>
         </li>
         <li>
-          <a href="/about">About Me</a>
+          <a href="/about">Sobre mi</a>
         </li>
       </ul>
     </div>

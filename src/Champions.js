@@ -3,103 +3,101 @@ import React from "react";
 function Champions() {
   const champions = [
     {
-      name: "Garen",
+      name: "Sett",
       role: "Top Lane",
-      difficulty: "Fácil",
+      difficulty: "Sett",
       description:
-        "Un guerrero resistente perfecto para principiantes. Sus habilidades son simples pero efectivas.",
-      tips: "Usa Q para silenciar enemigos, W para defenderte, E para hacer daño en área y R para ejecutar enemigos con poca vida.",
+        "Un lluitador resistent ideal per als principiants. Les seves habilitats són senzilles però efectives.",
+      tips: "Utilitza la Q per augmentar el teu dany, la W per reduir el dany rebut amb un escut i seguidament fer moltíssim mal, la E per atordir enemics i la R per llançar-los i causar gran impacte.",
     },
     {
-      name: "Annie",
+      name: "Fizz",
       role: "Mid Lane",
-      difficulty: "Fácil",
+      difficulty: "Fàcil",
       description:
-        "Una maga con mecánicas simples pero muy efectiva. Su oso Tibbers puede cambiar el rumbo de las peleas.",
-      tips: "Acumula tu pasiva para aturdir, usa Q para farmear y mantener maná, y guarda tu combo QWR+Tibbers para eliminar enemigos.",
+        "Un assassí màgic i àgil capaç d'esquivar atacs i eliminar enemics ràpidament amb la seva habilitat definitiva.",
+      tips: "Utilitza la Q per desplaçar-te i fer dany, la E per evitar atacs i la R per iniciar o rematar enemics.",
     },
     {
-      name: "Ashe",
+      name: "Samira",
       role: "ADC",
-      difficulty: "Fácil",
+      difficulty: "Difícil",
       description:
-        "Una tiradora con excelente utilidad para el equipo. Su ultimate puede iniciar peleas desde muy lejos.",
-      tips: "Mantén distancia, usa W para pokear y farmaer, activa Q cuando tengas varios ataques acumulados, y usa R para iniciar peleas.",
+        "Una tiradora agressiva que destaca en el combat proper. La seva mobilitat li permet entrar i sortir de les batalles amb gran efectivitat.",
+      tips: "Acumula el teu combo d'atacs, utilitza la W per bloquejar projectils, i la R per executar enemics quan el teu combo estigui al màxim.",
     },
     {
-      name: "Soraka",
+      name: "Leona",
       role: "Support",
-      difficulty: "Fácil",
+      difficulty: "Fàcil",
       description:
-        "Una sanadora que puede mantener vivo a todo su equipo. Excelente para aprender el rol de apoyo.",
-      tips: "Usa Q para hacer daño y curarte, W para curar aliados, E para silenciar enemigos, y R para curar a todo el equipo.",
+        "Un suport resistent especialitzat en iniciar combats i protegir el seu equip.",
+      tips: "Utilitza la Q per atordir enemics, la W per augmentar la teva resistència, la E per immobilitzar oponents i la R per iniciar batalles en equip.",
     },
     {
-      name: "Warwick",
+      name: "Kayn",
       role: "Jungle",
-      difficulty: "Fácil",
+      difficulty: "Difícil",
       description:
-        "Un licántropo que es perfecto para aprender la jungla. Tiene sustain natural y ganks efectivos.",
-      tips: "Sigue el rastro de sangre hacia enemigos con poca vida, usa Q para curarte, W para rastrear, y R para hacer ganks.",
-    },
-    {
-      name: "Darius",
-      role: "Top Lane",
-      difficulty: "Medio",
-      description:
-        "Un ejecutor que se vuelve más fuerte con cada eliminación. Domina la línea superior con su presencia intimidante.",
-      tips: "Acumula 5 stacks de sangrado con ataques básicos y W, luego usa R para ejecutar. E para atraer enemigos.",
+        "Un jungler versàtil que pot adaptar el seu estil de joc entre assassí o guerrer.",
+      tips: "Controla la teva transformació segons les necessitats de l'equip, utilitza la Q per moure't ràpid per la jungla i la R per esquivar i fer emboscades letals.",
     },
   ];
 
   const roles = [
     {
-      name: "Top Lane (Línea Superior)",
+      name: "Top Lane (Carril Superior)",
       description:
-        "Es una línea larga y solitaria donde suelen jugar campeones resistentes como tanques, luchadores y algunos magos. Es importante controlar las oleadas de minions y tener buena visión del río.",
-      champions: "Garen, Darius, Malphite, Nasus, Teemo",
-      playstyle: "Juego individual, enfoque en farmeo y duelos 1v1",
+        "És un carril llarg i solitari on solen jugar campions resistents com tancs, lluitadors i alguns mags. És important controlar les onades de minions i tenir bona visió del riu.",
+      champions:
+        "Garen, Darius, Malphite, Nasus, Teemo, Riven, Olaf, Gnar, Sett",
+      playstyle: "Joc individual, enfocament en farm i duels 1v1",
     },
     {
       name: "Jungle (Jungla)",
       description:
-        "El jugador que no tiene línea fija y se mueve por el mapa eliminando monstruos neutrales. Su trabajo es ayudar a todas las líneas y controlar objetivos como Dragón y Barón Nashor.",
-      champions: "Warwick, Amumu, Master Yi, Graves, Kha'Zix",
-      playstyle: "Rotaciones por el mapa, ganks, control de objetivos",
+        "El jugador que no té un carril fix i es mou pel mapa eliminant monstres neutrals. La seva tasca és ajudar totes les línies i controlar objectius com els Drac i el Baró Nashor.",
+      champions:
+        "Warwick, Amumu, Master Yi, Graves, Kha'Zix, Kayn, Nunu i Willump, Nidalee, Graves",
+      playstyle: "Rotacions pel mapa, ganks, control d'objectius",
     },
     {
-      name: "Mid Lane (Línea Media)",
+      name: "Mid Lane (Carril Central)",
       description:
-        "La línea más corta del mapa, generalmente ocupada por magos o asesinos. Tiene fácil acceso a ambos lados del mapa y suele ser el carry principal del equipo.",
-      champions: "Annie, Ahri, Zed, Yasuo, Orianna",
-      playstyle: "Alto daño, movilidad, influencia en todo el mapa",
+        "El carril més curt del mapa, generalment ocupat per mags o assassins. Té fàcil accés a tots dos costats del mapa i sol ser el carry principal de l'equip.",
+      champions:
+        "Annie, Ahri, Zed, Yasuo, Orianna, Fizz, Akali, Katarina, Kassadin, Malzahar",
+      playstyle: "Alt dany, mobilitat, influència en tot el mapa",
     },
     {
       name: "ADC (Attack Damage Carry)",
       description:
-        "El tirador del equipo, generalmente ubicado en la línea inferior. Su trabajo es hacer daño constante a distancia, especialmente en las peleas de equipo tardías.",
-      champions: "Ashe, Jinx, Caitlyn, Ezreal, Vayne",
-      playstyle: "Daño sostenido a distancia, posicionamiento crítico",
+        "El tirador de l'equip, generalment ubicat al carril inferior. La seva tasca és fer dany constant a distància, especialment en les batalles d'equip tardanes.",
+      champions:
+        "Ashe, Jinx, Caitlyn, Ezreal, Vayne, Kai'sa, Xayah, Jhin, Aphelios",
+      playstyle: "Dany constant a distància, posicionament crític",
     },
     {
-      name: "Support (Apoyo)",
+      name: "Support (Suport)",
       description:
-        "Acompaña al ADC en la línea inferior. Su trabajo es proteger al carry, proporcionar visión con wards, y dar utilidad al equipo con curaciones, escudos o iniciación.",
-      champions: "Soraka, Thresh, Leona, Janna, Blitzcrank",
-      playstyle: "Utilidad, protección, visión, iniciación de peleas",
+        "Acompanya l'ADC al carril inferior. La seva tasca és protegir el carry, proporcionar visió amb wards i donar utilitat a l'equip amb cures, escuts o iniciació.",
+      champions:
+        "Soraka, Thresh, Leona, Janna, Blitzcrank, Taric, Bardo, Nautilus, Seraphine, Lulu, Lux",
+      playstyle:
+        "Utilitat, protecció, visió, iniciació de batalles, hi ha molta varietat",
     },
   ];
 
   return (
     <div className="container">
-      <h1 className="page-title">Campeones & Roles</h1>
+      <h1 className="page-title">Campions & Rols</h1>
 
       <div className="card">
-        <h2>Campeones Recomendados para Principiantes</h2>
+        <h2>Campions Recomanats per a Principiants</h2>
         <p>
-          Estos campeones son perfectos para comenzar porque tienen mecánicas
-          simples pero efectivas. Te permitirán aprender los fundamentos del
-          juego sin preocuparte por combos complicados.
+          Aquests campions són perfectes per començar, ja que tenen mecàniques
+          senzilles però efectives. Et permetran aprendre els fonaments del joc
+          sense preocupar-te per combos complicats.
         </p>
       </div>
 
@@ -109,22 +107,22 @@ function Champions() {
             <h2>{champion.name}</h2>
             <h3>Rol: {champion.role}</h3>
             <p>
-              <strong>Dificultad:</strong> {champion.difficulty}
+              <strong>Dificultat:</strong> {champion.difficulty}
             </p>
             <p>{champion.description}</p>
             <p>
-              <strong>Tips:</strong> {champion.tips}
+              <strong>Consells:</strong> {champion.tips}
             </p>
           </div>
         ))}
       </div>
 
       <div className="card">
-        <h2>Los 5 Roles Explicados</h2>
+        <h2>Els 5 Rols Explicats</h2>
         <p>
-          En League of Legends cada jugador tiene un rol específico con
-          responsabilidades únicas. Entender estos roles es fundamental para
-          jugar efectivamente en equipo.
+          A League of Legends, cada jugador té un rol específic amb
+          responsabilitats úniques. Entendre aquests rols és fonamental per
+          jugar efectivament en equip.
         </p>
       </div>
 
@@ -133,41 +131,41 @@ function Champions() {
           <h2>{role.name}</h2>
           <p>{role.description}</p>
           <p>
-            <strong>Campeones típicos:</strong> {role.champions}
+            <strong>Campions típics:</strong> {role.champions}
           </p>
           <p>
-            <strong>Estilo de juego:</strong> {role.playstyle}
+            <strong>Estil de joc:</strong> {role.playstyle}
           </p>
         </div>
       ))}
 
       <div className="card">
-        <h2>¿Cómo Elegir tu Rol Principal?</h2>
+        <h2>Com Triar el teu Rol Principal?</h2>
         <p>
-          • <strong>¿Te gusta liderar peleas?</strong> Prueba Top Lane o Support
-          tanque
+          • <strong>T'agrada liderar les batalles?</strong> Prova Top Lane o
+          Support tanc
         </p>
         <p>
-          • <strong>¿Prefieres hacer mucho daño?</strong> Mid Lane o ADC son
-          para ti
+          • <strong>Prefereixes fer molt de dany?</strong> Mid Lane o ADC són
+          per a tu
         </p>
         <p>
-          • <strong>¿Te gusta ayudar al equipo?</strong> Support o Jungle pueden
-          gustarte
+          • <strong>T'agrada ajudar l'equip?</strong> Support o Jungle et poden
+          agradar
         </p>
         <p>
-          • <strong>¿Disfrutas la estrategia?</strong> Jungle requiere mucha
-          planificación
+          • <strong>Gaudeixes la estratègia?</strong> Jungle requereix molta
+          planificació
         </p>
         <p>
-          • <strong>¿Quieres responsabilidad?</strong> ADC y Mid suelen ser los
-          carries principales
+          • <strong>Vols responsabilitat?</strong> ADC i Mid solen ser els
+          carries principals
         </p>
 
         <p style={{ marginTop: "1.5rem" }}>
-          <strong>Consejo:</strong> Prueba todos los roles en partidas contra IA
-          o ARAM antes de decidir cuál es tu favorito. Muchos jugadores cambian
-          de rol principal según van ganando experiencia.
+          <strong>Consell:</strong> Prova tots els rols en partides contra IA o
+          ARAM abans de decidir quin és el teu favorit. Molts jugadors canvien
+          de rol principal a mesura que guanyen experiència.
         </p>
       </div>
     </div>

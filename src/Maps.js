@@ -3,101 +3,102 @@ import React from "react";
 function Maps() {
   const objectives = [
     {
-      name: "Dragón Elemental",
-      timing: "A partir del minuto 5",
-      reward: "Buffs permanentes para todo el equipo",
+      name: "Drac Elemental",
+      timing: "A partir del minut 5",
+      reward: "Millores permanents per a tot l'equip",
       strategy:
-        "Controla la visión del río inferior y coordina con tu equipo para conseguirlo.",
+        "Controla la visió del riu inferior i coordina amb el teu equip per aconseguir-lo.",
       types: [
-        "Dragón Infernal: +8% AD y AP",
-        "Dragón de Montaña: +6% Armadura y RM",
-        "Dragón Océano: +2.5% vida perdida cada 5s",
-        "Dragón de las Nubes: +3.5% velocidad de movimiento",
+        "Drac Infernal: +8% AD i AP",
+        "Drac de Muntanya: +6% Armadura i RM",
+        "Drac Oceànic: +2.5% vida perduda cada 5s",
+        "Drac dels Núvols: +3.5% velocitat de moviment",
+        "Drac tecnoquímic: +6% de tenacitat i 6% de curació i escuts",
+        "Drac hextec: 5 de velocitat d'habilitat i 5% de velocitat d'atac",
       ],
     },
     {
-      name: "Heraldo del Vacío",
-      timing: "Minutos 8-14",
-      reward: "Invocación que puede destruir torretas",
+      name: "Herald del Buit",
+      timing: "Minuts 8-14",
+      reward: "Invocació que pot destruir torres",
       strategy:
-        "Úsalo para tomar la torreta de la línea media y abrir el mapa.",
+        "Utilitza'l per prendre la torre del carril central i obrir el mapa.",
     },
     {
-      name: "Barón Nashor",
-      timing: "A partir del minuto 20",
-      reward: "Buff que fortalece minions y otorga estadísticas",
+      name: "Baró Nashor",
+      timing: "A partir del minut 25",
+      reward: "Millora que enforteix els minions i atorga estadístiques",
       strategy:
-        "El objetivo más importante del juego tardío. Permite terminar partidas.",
+        "L'objectiu més important del joc avançat. Permet acabar partides.",
     },
     {
-      name: "Dragón Anciano",
-      timing: "Después de 35 minutos o 4 dragones",
-      reward: "Buff temporal muy poderoso",
+      name: "Drac Ancestre",
+      timing: "Després d'aconseguir ànima de drac més o menys minut 40",
+      reward: "Millora temporal molt poderosa qu executa els enemics",
       strategy:
-        "Generalmente decide el resultado de la partida en el late game.",
+        "Generalment decideix el resultat de la partida en el late game.",
     },
   ];
 
-  const turrets = [
+  const torres = [
     {
-      name: "Torretas Exteriores",
-      gold: "650 oro",
-      importance: "Primeras torretas a destruir, dan ventaja de oro temprana",
+      name: "Torres Exteriors",
+      gold: "650 or",
+      importance: "Primeres torres a destruir, donen avantatge d'or inicial",
     },
     {
-      name: "Torretas Interiores",
-      gold: "750 oro",
-      importance: "Proporcionan control del mapa y acceso a la jungla enemiga",
+      name: "Torres Interiors",
+      gold: "750 or",
+      importance: "Proporcionen control del mapa i accés a la jungla enemiga",
     },
     {
-      name: "Torretas Inhibidoras",
-      gold: "750 oro",
-      importance: "Destruirlas activa super minions en esa línea",
-    },
-    {
-      name: "Torretas del Nexus",
-      gold: "50 oro",
+      name: "Torres d'Inhibidor",
+      gold: "750 or",
       importance:
-        "Últimas defensas antes del Nexus, deben destruirse para ganar",
+        "Destruir l'hinibidor que tenen activa super minions en aquest carril, en cas de tombar els de cada linia n'apereixeran 2 per cada carril",
+    },
+    {
+      name: "Torres del Nexus",
+      gold: "50 or",
+      importance:
+        "Últimes defenses abans del Nexe, cal destruir-les per guanyar, aquestes son les unique que poden reconstruir",
     },
   ];
 
   return (
     <div className="container">
-      <h1 className="page-title">Mapas & Objetivos</h1>
+      <h1 className="page-title">Mapes & Objectius</h1>
 
       <div className="card">
-        <h2>La Grieta del Invocador</h2>
+        <h2>La Grieta de l'Invocador</h2>
         <p>
-          La Grieta del Invocador es el mapa principal de League of Legends. Es
-          un mapa simétrico con tres carriles (líneas) conectados por una jungla
-          llena de monstruos neutrales y objetivos importantes.
+          La Grieta de l'Invocador és el mapa principal de League of Legends. És
+          un mapa simètric amb tres carrils (línies) connectats per una jungla
+          plena de monstres neutrals i objectius importants.
         </p>
         <h3>Estructura del Mapa:</h3>
         <p>
-          • <strong>Tres Líneas:</strong> Superior (Top), Media (Mid) e Inferior
-          (Bot)
+          • <strong>Tres Línies:</strong> Superior (Top), Mitjana (Mid) i
+          Inferior (Bot)
         </p>
         <p>
-          • <strong>Jungla:</strong> Área entre las líneas con monstruos
-          neutrales
+          • <strong>Jungla:</strong> Àrea entre les línies amb monstres neutrals
         </p>
         <p>
-          • <strong>Río:</strong> Divide el mapa horizontalmente, contiene
-          objetivos importantes
+          • <strong>Riu:</strong> Divideix el mapa horitzontalment, conté
+          objectius importants
         </p>
         <p>
-          • <strong>Bases:</strong> Cada equipo tiene una base con el Nexus en
-          extremos opuestos
+          • <strong>Bases:</strong> Cada equip té una base amb el Nexus en
+          extrems oposats
         </p>
       </div>
-
       <div className="card">
-        <h2>Sistema de Objetivos Neutrales</h2>
+        <h2>Sistema d'Objectius Neutrals</h2>
         <p>
-          Los objetivos neutrales son monstruos especiales que otorgan
-          beneficios significativos al equipo que los derrota. Controlar estos
-          objetivos es clave para obtener ventaja y ganar partidas.
+          Els objectius neutrals són monstres especials que donen beneficis
+          significatius a l'equip que els derrota. Controlar aquests objectius
+          és clau per obtenir avantatge i guanyar partides.
         </p>
       </div>
 
@@ -106,17 +107,17 @@ function Maps() {
           <div key={index} className="card">
             <h2>{objective.name}</h2>
             <p>
-              <strong>Timing:</strong> {objective.timing}
+              <strong>Moment:</strong> {objective.timing}
             </p>
             <p>
               <strong>Recompensa:</strong> {objective.reward}
             </p>
             <p>
-              <strong>Estrategia:</strong> {objective.strategy}
+              <strong>Estratègia:</strong> {objective.strategy}
             </p>
             {objective.types && (
               <div>
-                <h3>Tipos de Dragón:</h3>
+                <h3>Tipus de Drac:</h3>
                 {objective.types.map((type, i) => (
                   <p key={i}>• {type}</p>
                 ))}
@@ -127,134 +128,134 @@ function Maps() {
       </div>
 
       <div className="card">
-        <h2>Sistema de Torretas</h2>
+        <h2>Sistema de Torres</h2>
         <p>
-          Las torretas son estructuras defensivas que protegen cada línea.
-          Destruirlas es esencial para avanzar hacia la base enemiga y
-          proporciona oro significativo para tu equipo.
+          Les torres són estructures defensives que protegeixen cada carril.
+          Destruir-les és essencial per avançar cap a la base enemiga i
+          proporciona or significatiu per al teu equip.
         </p>
       </div>
 
       <div className="grid">
-        {turrets.map((turret, index) => (
+        {torres.map((torre, index) => (
           <div key={index} className="card">
-            <h2>{turret.name}</h2>
+            <h2>{torre.name}</h2>
             <p>
-              <strong>Oro por equipo:</strong> {turret.gold}
+              <strong>Or per equip:</strong> {torre.gold}
             </p>
             <p>
-              <strong>Importancia:</strong> {turret.importance}
+              <strong>Importància:</strong> {torre.importance}
             </p>
           </div>
         ))}
       </div>
 
       <div className="card">
-        <h2>Monstruos de la Jungla</h2>
-        <h3>Campos de Monstruos:</h3>
+        <h2>Monstres de la Jungla</h2>
+        <h3>Camps de Monstres:</h3>
         <p>
-          • <strong>Krug:</strong> Campo de golems, da oro y experiencia
+          • <strong>Krug:</strong> Camp de golems, dóna or i experiència
         </p>
         <p>
-          • <strong>Gromp:</strong> Rana gigante, relativamente fácil de matar
+          • <strong>Gromp:</strong> Granota gegant, relativament fàcil de matar
         </p>
         <p>
-          • <strong>Lobos:</strong> Manada de tres lobos
+          • <strong>Llops:</strong> Manada de tres llops
         </p>
         <p>
-          • <strong>Razorbeaks (Rapaces):</strong> Grupo de aves, muchos
-          enemigos pequeños
+          • <strong>Picuxills:</strong> Grup d'aus, molts enemics petits
         </p>
         <p>
-          • <strong>Buffs Azul y Rojo:</strong> Otorgan beneficios especiales
+          • <strong>Buffs Blau i Vermell:</strong> Atorguen beneficis especials
         </p>
 
-        <h3>Buffs Importantes:</h3>
+        <h3>Buffs Importants:</h3>
         <p>
-          • <strong>Buff Azul:</strong> Reducción de cooldowns y regeneración de
-          maná
+          • <strong>Buff Blau:</strong> Reducció del temps de reutilització i
+          regeneració de manà
         </p>
         <p>
-          • <strong>Buff Rojo:</strong> Daño extra y ralentización en ataques
-          básicos
+          • <strong>Buff Vermell:</strong> Dany extra en forma creamdures i una
+          mica de regeneració de vida
         </p>
       </div>
 
       <div className="card">
-        <h2>Control de Visión</h2>
+        <h2>Control de Visió</h2>
         <p>
-          La visión es uno de los aspectos más importantes pero subestimados del
-          juego. Controlar la visión te permite moverte seguro por el mapa y
-          sorprender a tus enemigos.
+          La visió és un dels aspectes més importants però subestimats del joc.
+          Controlar la visió et permet moure't amb seguretat pel mapa i
+          sorprendre els enemics.
         </p>
 
-        <h3>Tipos de Wards:</h3>
+        <h3>Tipus de Wards:</h3>
         <p>
-          • <strong>Ward Stealth:</strong> Invisible, dura 90-180 segundos según
-          el tipo
+          • <strong>Ward Invisible:</strong> Dura 90-180 segons allà on el
+          coloquis
         </p>
         <p>
-          • <strong>Ward de Control:</strong> Visible pero más duradero, revela
-          wards enemigos
+          • <strong>Ward de Control:</strong> Visible però més durador ja que té
+          4 punts de vida, revela wards enemics
         </p>
         <p>
-          • <strong>Ward Trinket:</strong> Gratuito con cooldown, todos los
-          jugadores lo tienen
+          • <strong>Ward Farsight:</strong> Té un punt de vida peró permet ser
+          colocat des de molta distància, per´o te un rang de visió menor
         </p>
 
-        <h3>Lugares Clave para Wardear:</h3>
-        <p>• Arbustos del río cerca de Dragón y Barón</p>
-        <p>• Entradas a tu jungla</p>
-        <p>• Arbustos en las líneas para detectar ganks</p>
-        <p>• Jungla enemiga cuando tengas ventaja</p>
+        <h3>Llocs Clau per Guardar Visió:</h3>
+        <p>• Arbusts del riu prop del Drac i del Baró</p>
+        <p>• Entrades a la teva jungla</p>
+        <p>• Arbusts en els carrils per detectar ganks</p>
+        <p>• Jungla enemiga quan tinguis avantatge</p>
       </div>
 
       <div className="card">
-        <h2>Estrategias de Map Control</h2>
-        <h3>Early Game (0-15 minutos):</h3>
-        <p>• Enfócate en farmear y ganar tu línea</p>
-        <p>• Ayuda a tu jungler con los primeros objetivos</p>
-        <p>• Mantén wards en los arbustos del río</p>
-        <p>• Toma las torretas exteriores cuando sea seguro</p>
+        <h2>Estrategies de Control del Mapa</h2>
+        <h3>Early Game (0-15 minuts):</h3>
+        <p>• Centra't en farmejar i guanyar la teva línia</p>
+        <p>• Ajuda el teu jungler amb els primers objectius</p>
+        <p>• Posa wards als arbusts del riu</p>
+        <p>• Pren les torres exteriors quan sigui segur</p>
 
-        <h3>Mid Game (15-25 minutos):</h3>
-        <p>• Agrúpate con tu equipo para tomar objetivos</p>
-        <p>• Controla la visión alrededor de Dragón y Barón</p>
-        <p>• Presiona diferentes líneas para dividir al enemigo</p>
-        <p>• Busca picks (eliminaciones individuales) en enemigos solos</p>
+        <h3>Mid Game (15-25 minuts):</h3>
+        <p>• Agrupa't amb el teu equip per prendre objectius</p>
+        <p>• Controla la visió al voltant del Drac i el Baró</p>
+        <p>• Pressiona diferents carrils per dividir l'enemic</p>
+        <p>• Busca picks (eliminacions individuals) en enemics sols</p>
 
-        <h3>Late Game (25+ minutos):</h3>
-        <p>• Mantente agrupado con tu equipo</p>
-        <p>• Barón y Dragón Anciano son prioridades máximas</p>
-        <p>• Una teamfight ganada puede decidir la partida</p>
-        <p>• Sé paciente, espera el momento perfecto para actuar</p>
+        <h3>Late Game (25+ minuts):</h3>
+        <p>• Mantén-te agrupat amb el teu equip</p>
+        <p>• El Baró i el Drac Ancestral són prioritats màximes</p>
+        <p>• Una teamfight guanyada pot decidir la partida</p>
+        <p>• Sigues pacient, espera el moment perfecte per actuar</p>
       </div>
 
       <div className="card">
-        <h2>Tips Importantes para el Mapa</h2>
+        <h2>Consells Importants pel Mapa</h2>
         <p>
-          • <strong>Nunca vayas solo por el mapa sin visión</strong> - Es la
-          forma más rápida de morir
+          • <strong>Mai vagis sol pel mapa sense visió</strong> - És la forma
+          més ràpida de morir
         </p>
         <p>
-          • <strong>Ping objetivos importantes</strong> - Comunica con tu equipo
-          cuándo hacer Dragón o Barón
+          • <strong>Fes ping als objectius importants</strong> - Comunica't amb
+          el teu equip sobre quan fer el Drac o el Baró
         </p>
         <p>
-          • <strong>Respeta los timings</strong> - Conoce cuándo aparecen los
-          objetivos
+          • <strong>Respecta els timings</strong> - Coneix quan apareixen els
+          objectius així pots controlar quan backejar i anar amb tota la vida i
+          mana a les teamfights
         </p>
         <p>
-          • <strong>La visión gana partidas</strong> - Compra wards incluso si
-          no eres support
+          • <strong>La visió guanya partides</strong> - Compra wards, encara que
+          no siguis support
         </p>
         <p>
-          • <strong>Controla las oleadas de minions</strong> - Los minions
-          pueden ganar líneas por ti
+          • <strong>Controla les onades de minions</strong> - Els minions poden
+          guanyar carrils per tu
         </p>
         <p>
-          • <strong>Posicionamiento es clave</strong> - Mantente en lugares
-          seguros durante teamfights
+          • <strong>El posicionament és clau</strong> - Mantén-te en llocs
+          segurs durant les teamfights
         </p>
       </div>
     </div>

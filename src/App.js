@@ -6,140 +6,140 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="hero-section">
-          <h1>Guía de League of Legends</h1>
+          <h1>Guia de League of Legends</h1>
           <p>
-            Bienvenido a la guía definitiva para principiantes de League of
-            Legends. Aprende los fundamentos del juego más popular del mundo.
+            Benvingut a la guia definitiva per a principiants de League of
+            Legends. Aprèn els fonaments del joc més popular del món.
           </p>
           <a href="/champions" className="btn">
-            Comenzar Ahora
+            Començar Ara
           </a>
         </div>
 
         <div className="grid">
           <div className="card">
-            <h2>¿Qué es League of Legends?</h2>
+            <h2>Què és League of Legends?</h2>
             <p>
-              League of Legends (LoL) es un juego multijugador online de arena
-              de batalla (MOBA) desarrollado por Riot Games. Dos equipos de
-              cinco jugadores compiten para destruir la estructura enemiga
-              llamada "Nexus" mientras defienden la suya propia.
+              League of Legends (LoL) és un joc multijugador en línia de batalla
+              (MOBA) desenvolupat per Riot Games. Dos equips de cinc jugadors
+              competeixen per a destruir l'estructura enemiga anomenada "Nexo"
+              mentre defensen la seva pròpia.
             </p>
             <p>
-              Cada jugador controla un "campeón" con habilidades únicas y
-              trabaja en equipo para lograr la victoria a través de estrategia,
-              habilidad y coordinación.
+              Cada jugador controla un "champion" amb habilitats úniques i
+              treballa en equip per a aconseguir la victòria a través
+              d'estratègia, habilitat i coordinació.
             </p>
           </div>
 
           <div className="card">
-            <h2>Objetivos Básicos</h2>
-            <h3>Objetivo Principal:</h3>
-            <p>Destruir el Nexus enemigo ubicado en su base.</p>
+            <h2>Objectius Bàsics</h2>
+            <h3>Objectiu Principal:</h3>
+            <p>Destruir el Nexus enemic situat en la seva base.</p>
 
-            <h3>Objetivos Secundarios:</h3>
-            <p>• Destruir torretas enemigas para avanzar</p>
-            <p>• Eliminar campeones enemigos</p>
-            <p>• Conseguir oro y experiencia</p>
-            <p>• Controlar objetivos neutrales (Dragón, Barón)</p>
-            <p>• Farmear minions para obtener recursos</p>
+            <h3>Objectius Secundaris:</h3>
+            <p>• Destruir torretes enemigues per a avançar</p>
+            <p>• Eliminar campions enemics</p>
+            <p>• Aconseguir or i experiència</p>
+            <p>• Controlar objectius neutrals (Drac, Baró)</p>
+            <p>• Farmejar minions per a obtenir recursos</p>
           </div>
 
           <div className="card">
-            <h2>Los 5 Roles Principales</h2>
-            <h3>Top Lane (Línea Superior):</h3>
-            <p>
-              Jugador solitario, generalmente tanques o luchadores resistentes.
-            </p>
+            <h2>Els 5 Rols Principals</h2>
+            <h3>Top Lane (Línia Superior):</h3>
+            <p>Jugador solitari, generalment tancs o lluitadors resistents.</p>
 
             <h3>Jungle (Jungla):</h3>
             <p>
-              Se mueve por el mapa eliminando monstruos neutrales y ayudando a
-              los carriles.
+              Es mou pel mapa eliminant monstres neutrals i ajudant als carrils.
             </p>
 
-            <h3>Mid Lane (Línea Media):</h3>
-            <p>Generalmente magos o asesinos con alto daño.</p>
+            <h3>Mid Lane (Línia Mitjana):</h3>
+            <p>Generalment mags o assassins amb alt mal.</p>
 
             <h3>ADC (Bot Lane):</h3>
-            <p>Tirador que causa daño sostenido a distancia.</p>
+            <p>Tirador que causa mal constantment a distància.</p>
 
-            <h3>Support (Apoyo):</h3>
+            <h3>Support (Suport):</h3>
             <p>
-              Protege y ayuda al ADC, proporciona visión y utilidad al equipo.
+              Protegeix i ajuda al ADC, proporciona visió i utilitat a tot
+              l'equip.
             </p>
           </div>
 
           <div className="card">
-            <h2>Conceptos Fundamentales</h2>
-            <h3>Last Hit (Último Golpe):</h3>
-            <p>Dar el golpe final a los minions para obtener oro.</p>
+            <h2>Conceptes Fonamentals</h2>
+            <h3>Last Hit (Últim Cop):</h3>
+            <p>Donar el cop final als minions per a obtenir or.</p>
 
-            <h3>Visión:</h3>
-            <p>Usar wards para revelar áreas del mapa y evitar emboscadas.</p>
+            <h3>Visió:</h3>
+            <p>Usar wards per a revelar àrees del mapa i evitar emboscades.</p>
 
             <h3>Ganking:</h3>
-            <p>Sorprender al enemigo con ayuda de otros jugadores.</p>
+            <p>Sorprendre l'enemic amb ajuda d'altres jugadors.</p>
 
             <h3>Farming:</h3>
             <p>
-              Eliminar minions y monstruos neutrales para obtener oro y
-              experiencia.
+              Eliminar minions i monstres neutrals per a obtenir or i
+              experiència.
             </p>
 
             <h3>Teamfight:</h3>
-            <p>Combates grupales entre ambos equipos completos.</p>
+            <p>Combats grupals entre tots dos equips complets.</p>
           </div>
 
           <div className="card">
-            <h2>Tips para Principiantes</h2>
+            <h2>Tips per a Principiants</h2>
             <p>
-              • <strong>Empieza con campeones simples:</strong> Annie, Garen,
-              Ashe son perfectos para aprender.
+              • <strong>Comença amb campions simples:</strong> Annie, Garen,
+              Ashe, Leona, Master Yi són perfectes per a aprendre.
             </p>
             <p>
-              • <strong>Practica el last hit:</strong> Es la base para obtener
-              oro eficientemente.
+              • <strong>Practica el last hit:</strong> És la base per a obtenir
+              or eficientment.
             </p>
             <p>
-              • <strong>Mantén la visión:</strong> Compra wards y úsalos
-              constantemente.
+              • <strong>Mantingues la visió:</strong> Utilitza wards
+              constantment.
             </p>
             <p>
-              • <strong>Mantente cerca del equipo:</strong> No vayas solo por el
+              • <strong>Estigues a prop de l'equip:</strong> No vagis sol pel
               mapa.
             </p>
             <p>
-              • <strong>Aprende de tus errores:</strong> Cada muerte es una
-              oportunidad de aprender.
+              • <strong>Aprèn dels teus errors:</strong> Cada mort és una
+              oportunitat d'aprendre, som humans i ens equivoquem molt.
             </p>
             <p>
-              • <strong>Estudia el mapa:</strong> Conoce las rutas y objetivos
-              importantes.
+              • <strong>Estudia el mapa:</strong> Coneix les rutes i objectius
+              importants, moure's pel mapa en el moment ideal marca molt la
+              diferència entre jugadors bons i jugadors dolents.
             </p>
           </div>
 
           <div className="card">
-            <h2>Recursos Recomendados</h2>
+            <h2>Recursos Recomanats</h2>
             <p>
-              • <strong>Modo Tutorial:</strong> Completa todos los tutoriales
-              del juego.
+              • <strong>Mode Tutorial:</strong> Completa tots els tutorials del
+              joc.
             </p>
             <p>
-              • <strong>Modo Práctica:</strong> Usa la herramienta de práctica
-              para mejorar mecánicas.
+              • <strong>Mode Pràctica:</strong> Usa l'eina de pràctica per a
+              millorar mecàniques i aprendre a utilitzar-los.
             </p>
             <p>
-              • <strong>ARAM:</strong> Modo casual para aprender diferentes
-              campeones.
+              • <strong>ARAM:</strong> Mode casual per a aprendre diferents
+              campions.
             </p>
             <p>
-              • <strong>Guías online:</strong> Lee guías específicas de
-              campeones y roles.
+              • <strong>Guies en línia:</strong> Lee guies específiques de
+              campions i rols ideal per a personatges més complexos i aprendre
+              els seus combos, com Lee Sin o Irelia.
             </p>
             <p>
-              • <strong>Streams y videos:</strong> Observa a jugadores
-              profesionales.
+              • <strong>Streams i vídeos:</strong> Observa a jugadors
+              professionals.
             </p>
           </div>
         </div>

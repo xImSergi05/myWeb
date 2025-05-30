@@ -6,175 +6,187 @@ function AboutMe() {
       <h1 className="page-title">About Me</h1>
 
       <div className="hero-section">
-        <h1>¡Hola! Soy tu Guía de LoL</h1>
+        <h1>¡Hola! Soc el teu Guia de LoL</h1>
         <p>
-          Bienvenido a mi guía personal de League of Legends. Aquí encontrarás
-          mi experiencia y consejos para ayudarte en tu viaje en la Grieta del
-          Invocador.
+          Benvingut a la meva guia personal de League of Legends. Aquí trobaràs
+          la meva experiència i consells per a ajudar-te en el teu viatge en
+          l'Esquerda de l'Invocador..
         </p>
       </div>
 
       <div className="grid">
         <div className="card">
-          <h2>Mi Historia con League of Legends</h2>
+          <h2>La meva història amb League of Legends</h2>
           <p>
-            Comencé a jugar League of Legends hace varios años como muchos
-            jugadores: completamente perdido y sin entender nada del juego.
-            Recuerdo mis primeras partidas alimentando al enemigo y sin saber
-            qué hacer.
+            Vaig començar a jugar League of Legends fa diversos anys com molts
+            jugadors: completament perdut i sense entendre res del joc. Record
+            les meves primeres partides alimentant a l'enemic i sense saber què
+            fer.
           </p>
           <p>
-            Con el tiempo, dedicación y muchas horas de práctica, logré mejorar
-            significativamente. He experimentado la frustración de estar
-            atascado en rangos bajos y la satisfacción de finalmente subir y
-            entender las mecánicas del juego.
+            Amb el temps, dedicació i moltes hores de pràctica, vaig aconseguir
+            millorar significativament. He experimentat la frustració d'estar
+            embussat en rangs baixos i la satisfacció de finalment pujar i
+            entendre les mecàniques del joc.
           </p>
           <p>
-            Ahora, después de miles de partidas y experiencia en todos los
-            roles, quiero compartir todo lo que he aprendido para ayudar a otros
-            jugadores a evitar los errores que yo cometí.
-          </p>
-        </div>
-
-        <div className="card">
-          <h2>¿Por qué creé esta Guía?</h2>
-          <p>
-            League of Legends puede ser increíblemente intimidante para nuevos
-            jugadores. La curva de aprendizaje es empinada y la comunidad no
-            siempre es amigable con los principiantes.
-          </p>
-          <p>
-            Esta guía nació de mi deseo de crear un recurso completo pero
-            accesible que cubra todos los aspectos fundamentales que necesita
-            conocer un jugador nuevo, desde los conceptos más básicos hasta
-            estrategias más avanzadas.
-          </p>
-          <p>
-            Mi objetivo es que cualquier persona pueda leer esta guía y tener
-            una base sólida para comenzar su aventura en League of Legends con
-            confianza.
+            Ara, després de milers de partides i experiència en tots els rols,
+            vull compartir tot el que he après per a ajudar altres jugadors a
+            evitar els errors que jo vaig cometre.
           </p>
         </div>
 
         <div className="card">
-          <h2>Mi Experiencia y Logros</h2>
-          <h3>Rango Actual:</h3>
-          <p>He alcanzado el rango de Oro/Platino en múltiples temporadas</p>
-
-          <h3>Roles Principales:</h3>
-          <p>• Main Support: Especializado en champions utilitarios</p>
+          <h2>Per què vaig crear aquesta Guia?</h2>
           <p>
-            • Secondary ADC: Experiencia en carry a través de daño sostenido
-          </p>
-          <p>• Conocimiento general de todos los roles</p>
-
-          <h3>Champions Favoritos:</h3>
-          <p>• Thresh - El champion más versátil y divertido del juego</p>
-          <p>• Jinx - Mi ADC favorito para carry partidas</p>
-          <p>• Orianna - La maga perfecta para teamfights</p>
-
-          <h3>Modalidades de Juego:</h3>
-          <p>• Ranked Solo/Duo: Mi modalidad principal</p>
-          <p>• ARAM: Para relajarse y probar builds experimentales</p>
-          <p>• Normales: Para practicar nuevos champions y roles</p>
-        </div>
-
-        <div className="card">
-          <h2>Mi Filosofía de Juego</h2>
-          <p>
-            Creo firmemente que League of Legends es un juego de equipo donde la
-            actitud positiva y la comunicación son tan importantes como la
-            habilidad mecánica.
-          </p>
-
-          <h3>Principios que Sigo:</h3>
-          <p>
-            • <strong>El respeto es fundamental:</strong> Todos estamos
-            aprendiendo
+            League of Legends pot ser increïblement intimidant per a nous
+            jugadors. La corba d'aprenentatge és empinada i la comunitat no
+            sempre és amigable amb els principiants.
           </p>
           <p>
-            • <strong>Los errores son oportunidades:</strong> Cada muerte enseña
-            algo nuevo
+            Aquesta guia va néixer del meu desig de crear un recurs complet però
+            accessible que cobreixi tots els aspectes fonamentals que necessita
+            conèixer un jugador nou, des dels conceptes més bàsics fins a
+            estratègies més avançades.
           </p>
           <p>
-            • <strong>El conocimiento Mecánicas:</strong> Entender el juego es
-            más importante que tener manos rápidas
-          </p>
-          <p>
-            • <strong>La paciencia gana partidas:</strong> No todas las jugadas
-            deben ser agresivas
-          </p>
-          <p>
-            • <strong>El equipo siempre primero:</strong> Las estadísticas
-            individuales no importan si pierdes
+            El meu objectiu és que qualsevol persona pugui llegir aquesta guia i
+            tenir una base sòlida per a començar la seva aventura en League of
+            Legends amb confiança.
           </p>
         </div>
 
         <div className="card">
-          <h2>Consejos que me Hubiera Gustado Conocer</h2>
+          <h2>La meva Experiència i Assoliments</h2>
+          <h3>Rang Actual:</h3>
+          <p>He aconseguit el rang de bronze/plata en múltiples temporades</p>
+
+          <h3>Rols Principals:</h3>
+          <p>• Main Support: Especialitzat en champions utilitaris</p>
+          <p>• Secondary ADC: Experiència en carry a través de mal sostingut</p>
+          <p>• Coneixement general de tots els rols</p>
+
+          <h3>Support preferits:</h3>
           <p>
-            Si pudiera volver al pasado y darle consejos a mi yo principiante,
-            estos serían los puntos más importantes:
+            • Leona - El champion simple i divertit del joc siguent utilitari en
+            els combats
+          </p>
+          <p>
+            • Braum - El champion divertit de jugar, especialitzat en
+            relantitzar i fastidiar a l'enemic
+          </p>
+          <p>
+            • Poppy - El champion amb molta resistencia i movilitat perfecte per
+            fer caçades
           </p>
 
+          <h3>Modalitats de Joc:</h3>
           <p>
-            • <strong>No te rindas después de malas partidas:</strong> Todos
-            tienen días malos
+            • Ranked Sol/Duo: La meva modalitat principal que les jugo amb el
+            meu amic
+          </p>
+          <p>• ARAM: Per a relaxar-se i provar builds experimentals</p>
+          <p>• Normals: Per a practicar nous champions i rols</p>
+        </div>
+
+        <div className="card">
+          <h2>La meva Filosofia de Joc</h2>
+          <p>
+            Crec fermament que League of Legends és un joc d'equip on l'actitud
+            positiva i la comunicació són tan importants com l'habilitat
+          </p>
+
+          <h3>Principis que Segueixo:</h3>
+          <p>
+            • <strong>El respecte és fonamental:</strong> Tots estem aprenent
           </p>
           <p>
-            • <strong>Muteea a jugadores tóxicos inmediatamente:</strong> Tu
-            salud mental es más importante
+            • <strong>Els errors són oportunitats:</strong> Cada mort ensenya
+            una cosa nova
           </p>
           <p>
-            • <strong>Aprende un rol a la vez:</strong> No trates de dominar
-            todo simultáneamente
+            • <strong>El coneixement Mecàniques:</strong> Entendre el joc és més
+            important que tenir mans ràpides, aixó pot significar treure una
+            gran ventatge a l'enemic
           </p>
           <p>
-            • <strong>Mira tus propias replays:</strong> Es la forma más rápida
-            de mejorar
+            • <strong>La paciència guanya partides:</strong> No totes les
+            jugades han de ser agressives, s'ha de veure els punts febles de
+            l'enemic i juagr amb calma amb tot l'equip, la superioritat numèrica
+            fa guanyar partides
           </p>
           <p>
-            • <strong>Juega para aprender, no solo para ganar:</strong> Las
-            victorias llegaran naturalmente
-          </p>
-          <p>
-            • <strong>Encuentra amigos para jugar:</strong> El juego es más
-            divertido en grupo
+            • <strong>L'equip sempre primer:</strong> Les estadístiques
+            individuals no importen si perds, mentalitat de support, deicxa el
+            farm pels companys i fes assitències
           </p>
         </div>
 
         <div className="card">
-          <h2>Contacto y Recursos</h2>
+          <h2>Consells que m'hagués agradat conèixer</h2>
           <p>
-            Si tienes preguntas específicas sobre la guía o quieres sugerir
-            mejoras, no dudes en contactarme. Siempre estoy dispuesto a ayudar a
-            la comunidad de League of Legends.
+            Si pogués tornar al passat i donar-li consells al meu jo
+            principiant, aquests serien els punts més importants:
           </p>
 
-          <h3>Recursos Adicionales que Recomiendo:</h3>
           <p>
-            • <strong>OP.GG:</strong> Para revisar estadísticas y builds
+            • <strong>No et rendeixis després de males partides:</strong> Tots
+            tenen dies dolents
           </p>
           <p>
-            • <strong>U.GG:</strong> Excelente para guías de champions
-            actualizadas
+            • <strong>Muteja a jugadors tòxics immediatament:</strong> La teva
+            salut mental és més important
           </p>
           <p>
-            • <strong>ProBuilds:</strong> Para ver qué usan los profesionales
+            • <strong>Aprèn un rol alhora:</strong> No tractis de dominar tot
+            simultàniament
           </p>
           <p>
-            • <strong>YouTube/Twitch:</strong> Contenido educativo de jugadores
-            experimentados
+            • <strong>Mira les teves pròpies replays:</strong> És la forma més
+            ràpida de millorar
           </p>
           <p>
-            • <strong>Reddit r/leagueoflegends:</strong> Comunidad activa con
-            mucho contenido
+            • <strong>Juga per a aprendre, no sols per a guanyar:</strong> Les
+            victòries arribessin naturalment
+          </p>
+          <p>
+            • <strong>Troba amics per a jugar:</strong> El joc és més divertit
+            en grup i es molt més fàcil compenetrar-se
+          </p>
+        </div>
+
+        <div className="card">
+          <h2>Contacte i Recursos</h2>
+          <p>
+            Si tens preguntes específiques sobre la guia o vols suggerir
+            millores, no dubtis a contactar-me. Sempre estic disposat a ajudar a
+            la comunitat de League of Legends.
+          </p>
+
+          <h3>Recursos Addicionals que Recomano:</h3>
+          <p>
+            • <strong>OP.GG:</strong> Per a revisar estadístiques i builds
+          </p>
+          <p>
+            • <strong>U.gg:</strong> Excel·lent per a guies de champions
+            actualitzades
+          </p>
+          <p>
+            • <strong>ProBuilds:</strong> Per a veure què usen els professionals
+          </p>
+          <p>
+            • <strong>YouTube/Twitch:</strong> Contingut educatiu de jugadors
+            experimentats o mirar com juguen els jugadors professionals
+          </p>
+          <p>
+            • <strong>Reddit r/leagueoflegends:</strong> Comunitat activa amb
+            molt de contingut
           </p>
 
           <p style={{ marginTop: "2rem", fontStyle: "italic" }}>
-            "El viaje de mil millas comienza con un solo paso. En League of
-            Legends, cada partida es un paso hacia convertirte en un mejor
-            jugador. ¡Disfruta el proceso y nos vemos en la Grieta!"
+            "El viatge de mil milles comença amb un sol pas. En League of
+            Legends, cada partida és un pas cap a convertir-te en un millor
+            jugador. Gaudeix el procés i ens veiem en l'Esquerda!"
           </p>
         </div>
       </div>
